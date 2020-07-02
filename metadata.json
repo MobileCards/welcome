@@ -1,0 +1,84 @@
+{
+	"Name": "testWel4",
+	"GroupName": "None",
+	"SortCardsWith": null,
+	"GatekeeperConfiguration": null,
+	"Connection": null,
+	"CustomType": "Welcome",
+	"AppLaunchUrl": "",
+	"UrlMatch": null,
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": ""
+		}
+	],
+	"QueryInterval": "P1DT0H0M",
+	"QueryURL": null,
+	"QueryConfiguration": {
+		"CacheQueryResult": false
+	},
+	"QueryReturnsEntityCollection": false,
+	"NewsEnabled": false,
+	"AutoSubscribe": true,
+	"HiddenSubscription": false,
+	"SubscriptionParameters": [
+		{
+			"defaultValue": false,
+			"enabledForDeviceNotification": false,
+			"isKey": false,
+			"maxLength": 255,
+			"name": "isDate",
+			"nullable": true,
+			"type": "Edm.Boolean",
+			"label": [
+				{
+					"language": "EN",
+					"text": "Is Date"
+				}
+			]
+		}
+	],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "",
+			"Order": 0,
+			"Uri": "",
+			"Shared": true
+		}
+	],
+	"Parameters": {
+		"Parameters": []
+	},
+	"APNSEnabled": true,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
+	"ActionConfiguration": {
+		"Actions": [],
+		"BehaviorAfterAction": "INACTIVE",
+		"Category": "14358CEB-1202-4F42-89EB-C63E7ACD4E03",
+		"XCSRFTokenUrl": ""
+	},
+	"CustomRequestProperties": {
+		"RequestBody": "",
+		"RequestHeaders": [],
+		"RequestHttpMethod": "GET"
+	},
+	"@odata.context": "https://hcpmscards.hanatrial.ondemand.com/v2/admin/odata/$metadata#CardTypeSet/$entity",
+	"@odata.type": "#com.sap.mobile.platform.server.content2go.admin.v2.CardType",
+	"CardClass": "HtmlTemplate",
+	"DevelopmentStatus": "Development",
+	"HighAvailability": false,
+	"LastModifiedBy": "sfadmin",
+	"Locked": false,
+	"SubscribableTo": {
+		"Users": []
+	},
+	"TemplateName": "User defined template",
+	"changedNotification": "",
+	"newNotification": "",
+	"showDataPanel": false,
+	"templateName": "User defined template"
+}
